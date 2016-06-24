@@ -29,28 +29,83 @@ body{
 .menu-panel{
     position: absolute;
     background-color: #505050;
-    margin: 140px 47.5px;
-    height: 50px;
+    margin: 130px 47.5px;
+    height: 40px;
     width: 970px;
 
 }
 
-li {
+.menu-panel li {
     position: relative;
     text-align: center;
     display: inline-block;
-    padding: 15px 45px 18px;
+    padding: 11px 45px 11px;
     font-size: 14.667px;
     font-family: "OpenSans";
     color: rgb(255, 255, 255);
     text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
     text-align: justify;
+    border-left: 0.5px solid #505050;
+    border-right: 0.5px solid #505050;
+
 }
 
-li:hover{
-    background-color: #464646;
-    border-left: 1px solid #838383;
-    border-right: 1px solid #838383;
+.menu-panel li:hover{
+    background-color: #383838;
+    border-left: 0.5px solid #838383;
+    border-right: 0.5px solid #838383;
 }
 
+section{
+    position: relative;
+}
+aside table{
+    width: 240px;
+    position: absolute;
+    margin: 200px 47.5px;
+    border: 1px solid #c8c8c8;
+    border-collapse: collapse;
+}
 
+aside td{
+    border: 1px solid #c8c8c8;
+    height: 10px;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-family: "OpenSans";
+    color: rgb(101, 99, 99);
+    text-align: left;
+
+}
+
+aside td:hover{
+    background-color: #f9f9f9;
+    padding: 15px 35px;
+    color: black;
+}
+
+.image{
+    background-image: url( "../img/bicycle.jpg" );
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    border: 1px solid #c8c8c8;
+    width: 675px;
+    height: 395px;
+    margin: 200px 337.5px;
+}
+
+.text{
+    position: absolute;
+    height: 145px;
+    width: 625px;
+    margin: 630px 47.5px 50px 337.5px;
+    padding: 0 25px;
+    font-size: 13.333px;
+    font-family: "Myriad Pro";
+    color: rgb(44, 44, 44);
+    line-height: 1.6;
+    -webkit-hyphens: manual;
+
+
+}
