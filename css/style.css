@@ -1,6 +1,21 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: arial;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+aside a{
+    color: rgb(101, 99, 99);
+
+}
+
+footer a{
+    color: black;
 }
 
 body{
@@ -11,7 +26,7 @@ body{
     position: relative;
     margin: 0 auto;
     width: 1065px;
-    height: 1000px;
+    height: 950px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -36,15 +51,15 @@ body{
 }
 
 .menu-panel li {
+
     position: relative;
     text-align: center;
     display: inline-block;
-    padding: 11px 45px 11px;
+    margin: 0 35px 0 0;
+    padding: 11px 25px 11px;
     font-size: 14.667px;
-    font-family: "OpenSans";
     color: rgb(255, 255, 255);
     text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
-    text-align: justify;
     border-left: 0.5px solid #505050;
     border-right: 0.5px solid #505050;
 
@@ -68,12 +83,12 @@ aside table{
 }
 
 aside td{
+    font-size: 14.667px;
     border: 1px solid #c8c8c8;
     height: 10px;
     padding: 15px 25px;
     font-size: 15px;
     font-family: "OpenSans";
-    color: rgb(101, 99, 99);
     text-align: left;
 
 }
@@ -106,6 +121,34 @@ aside td:hover{
     color: rgb(44, 44, 44);
     line-height: 1.6;
     -webkit-hyphens: manual;
+}
 
+footer{
+    position: absolute;
+    background-color: #e1e1e1;
+    margin: 830px 47.5px 55px;
+    height: 40px;
+    width: 970px;
+}
 
+footer li{
+
+    font-size: 14.667px;
+    float:left;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin: 0 35px 0 0;
+    padding: 11px 25px 11px;
+    font-size: 14.667px;
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    float: right;
+    font-size: 13.333px;
+    padding: 11px 25px;
 }
