@@ -11,7 +11,6 @@ a{
 
 aside a{
     color: rgb(101, 99, 99);
-    font-family: "OpenSans";
     text-align: left;
     font-size: 14.667px;
 }
@@ -29,7 +28,7 @@ body{
     position: relative;
     margin: 0 auto;
     width: 1065px;
-    height: 950px;
+    min-height: 950px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -59,7 +58,7 @@ body{
     text-align: center;
     display: inline-block;
     margin: 0 35px 0 0;
-    padding: 11px 25px 11px;
+    padding: 12px 25px 11px;
     font-size: 14.667px;
     color: rgb(255, 255, 255);
     text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
@@ -93,9 +92,10 @@ aside td{
     padding: 15px 25px;
 }
 
-aside td a:hover{
+aside td:hover{
     padding: 15px 35px;
-    color: black;
+    font-weight: 600;
+    background-color: #f9f9f9;
 }
 
 .image{
